@@ -9,4 +9,8 @@ public class Hello {
     public String hello(){
         return "My Name Is Mukesh Pal";
     }
+    @GetMapping(value = "/hello")
+    public String myDear(){
+        return "Hello My Dear";
+    }
 }
